@@ -320,6 +320,8 @@
         margin-top: 24px;
         border: 1px solid #dedede;
         width: 335px;
+        /* padding-left: 11px; */
+        margin-left: 120px;
     }
     body{
         margin: 0 auto;
