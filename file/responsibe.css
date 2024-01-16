@@ -5,14 +5,17 @@
         margin: 0 116px;
         font-family: "Mulish";
     }
-    .header {
-        flex-direction: column;
-    }
+    /* .header{
+        text-align: right;
+    } */
 
     .header-right {
         justify-content: right;
+        flex-direction: column;
     }
-
+    .header-left{
+        margin-top: 10px;
+    }
     .logo-image img {
         width: 48px;
         height: 34px;
@@ -49,7 +52,11 @@
     nav a:hover {
         display: inline;
     }
+    .humburger1{
+        visibility: visible;
+        /* margin-top: 20px; */
 
+    }
     .input-banner {
         width: 250px;
     }
@@ -89,15 +96,18 @@
         font-size: 20px;
         width: 188px;
     }
+
     .Popular-sec p {
         width: 335px;
         font-size: 14px;
         margin-top: 16px;
     }
+
     .Popular-sec {
         margin-top: 24px;
         flex-direction: column;
     }
+
     .bullet-point ul li {
         width: 320px;
         color: rgba(19, 19, 24, 0.70);
@@ -105,17 +115,20 @@
         margin-top: 16px;
         margin-left: 30px;
     }
-    .read{
+
+    .read {
         margin-top: 5px;
         font-size: 18px;
         font-weight: 700;
         padding: 8px 14px;
     }
+
     .Popular-image img {
         width: 335px;
         height: 342px;
         margin-top: 24px;
     }
+
     .Popular-sec {
         width: 350px;
     }
@@ -126,11 +139,24 @@
         font-size: 20px;
         font-weight: 800;
         margin-top: 10px;
+        width: 317px;
+        margin-left: 17px;
     }
+    .primary-text2 {
+        color: #131318;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 800;
+        margin-top: 10px;
+        width: 239px;
+        margin-left: 40px;
+    }
+
     .Destination {
         text-align: center;
         margin-top: 24px;
     }
+
     .primary-des {
         color: rgba(19, 19, 24, 0.70);
         font-size: 14px;
@@ -138,43 +164,71 @@
         width: 309px;
         margin: 24px 12px;
     }
-    .Destination-image1, .Destination-image2, .Destination-image3{
+
+    .Destination-image1,
+    .Destination-image2,
+    .Destination-image3 {
         flex-direction: column;
         gap: 0;
     }
-    .dp1 img{
+
+    .dp1 img {
         width: 335px;
         height: 176px;
     }
+
     .pd1 {
         margin-top: 127px;
     }
-    .pd2{
+
+    .pd2 {
         margin-top: 10px;
     }
+
     .dt1 {
-        bottom: 106px;
+        bottom: 104px;
         font-size: 20px;
         font-weight: 700;
+        left: 76px;
     }
+
     .dp3 {
         margin-top: 445px;
     }
-    .choose{
+
+    .choose {
         margin-top: 545px;
     }
-    .choose-box {
-       flex-direction: column;
-    }
-    .choose-box-1, .choose-box-2, .choose-box-3 {
-    width: 335px;
-    height: 288px;
 
+    .choose-box {
+        flex-direction: column;
     }
-    .choose-box-1 p, .choose-box-2 p, .choose-box-3 p {
+
+    .choose-box-1,
+    .choose-box-2,
+    .choose-box-3 {
+        width: 335px;
+        height: 288px;
+        margin-left: 1px;
+    }
+
+    .choose-box-1 p,
+    .choose-box-2 p,
+    .choose-box-3 p {
         font-size: 14px;
         width: 271px;
     }
+
+    .Deals-banner-sec-1 {
+        width: 335px;
+        height: 500px;
+    }
+
+    .Deals-banner-sec-2 {
+        width: 335px;
+        height: 500px;
+    }
+
     .Deals-box1 {
         width: 303px;
         height: 297px;
@@ -182,18 +236,23 @@
         left: 16px;
         top: 187px;
     }
+
     .Deals-menu1 h6 {
         width: 111px;
     }
+
     .Deals-icon1 {
-    flex-direction: column;
+        flex-direction: column;
     }
-    .Deals-menu1{
+
+    .Deals-menu1 {
         margin-top: 10px;
     }
+
     .Deals-text1 {
         padding-left: 20px;
     }
+
     .Deals-text1 p {
         color: #5A5A5D;
         font-size: 13px;
@@ -201,6 +260,7 @@
         padding-top: 9px;
         width: 275px;
     }
+
     .Deals-text1 {
         color: #FF5400;
         font-family: "Mulish";
@@ -209,6 +269,7 @@
         font-weight: 800;
         line-height: normal;
     }
+
     .Deals-box2 {
         width: 303px;
         height: 297px;
@@ -216,26 +277,32 @@
         left: 10px;
         top: 186px;
     }
+
     .Deals-sec .Packages {
         margin-left: 64px;
         margin-top: 32px;
     }
+
     .parfect-sec {
         flex-direction: column;
     }
+
     .perfect-text h1 {
         font-size: 21px;
         width: 250px;
         line-height: 30px;
     }
+
     .perfect-text p {
         font-size: 14px;
         width: 335px;
     }
+
     .perfect-text ul li {
         width: 335px;
         padding-top: 16px;
     }
+
     .see-more {
         font-size: 16px;
         font-weight: 600;
@@ -243,40 +310,49 @@
         width: 174px;
         height: 52px;
     }
+
     .parfect-sec-yt iframe {
         width: 335px;
         height: 200px;
         margin-top: 24px;
     }
-    .newsletter-sec{
+
+    .newsletter-sec {
         flex-direction: column;
     }
+
     .newsletter-input {
         width: 335px;
         height: 422px;
         padding: 24px;
     }
+
     .newsletter-input h2 {
-       font-size: 20px;
+        font-size: 20px;
     }
+
     .newsletter-input p {
         font-size: 14px;
         width: 270px;
     }
+
     .newsletter-input input {
         width: 288px;
         height: 52px;
     }
+
     .Subscribe {
         font-size: 20px;
         padding: 19px 96px;
         margin-top: 20px;
     }
+
     .newsletter-image img {
         width: 335px;
         height: 209px;
         object-fit: contain;
     }
+
     .save-70 {
         width: 214px;
         height: 79px;
@@ -284,38 +360,46 @@
         bottom: 112px;
         left: 118px;
     }
+
     .save-70 p {
         font-size: 15px;
         font-weight: 400;
     }
+
     .save-70 h2 {
         font-size: 21px;
     }
-    .primary-text {
+
+    /* .primary-text {
         margin-top: -46px;
-    }
-    .unique-box1{
+    } */
+    .unique-box1 {
         flex-direction: column;
         margin: 0 auto;
     }
+
     .img-mbox {
         padding-left: 13px;
     }
+
     .footer-text {
         display: flex;
         justify-content: center;
         margin-top: 19px;
     }
+
     .footer-des {
         font-size: 14px;
         font-weight: 400;
         width: 284px;
         margin: 16px auto;
     }
+
     .social-link {
         padding: 0px 190px;
         /* margin-top: 16px; */
     }
+
     .footer-sec hr {
         margin-top: 24px;
         border: 1px solid #dedede;
@@ -323,21 +407,27 @@
         /* padding-left: 11px; */
         margin-left: 120px;
     }
-    body{
+
+    body {
         margin: 0 auto;
     }
-    .max-width{
+
+    .max-width {
         max-width: 535px;
     }
+
     footer {
-        max-width: 575px;
+        max-width: 598px;
         margin: 4px -1px;
         font-family: "Mulish";
         height: 260px;
     }
+
     .footer-logo {
         flex-direction: column;
     }
+
     .copyright {
-        margin: 10px 180px;
+        margin: 0px 169px;
     }
+    

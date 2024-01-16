@@ -26,7 +26,9 @@
     align-items: center;
     width: 86%;
 }
-
+.humburger1{
+    visibility: hidden;
+}
 .logo-sec {
     display: flex;
     align-items: center;
@@ -243,6 +245,7 @@ select,
     margin-top: 100px;
 }
 
+
 .primary-des {
     color: rgba(19, 19, 24, 0.70);
     text-align: center;
@@ -295,7 +298,14 @@ select,
     font-family: "Mulish";
 
 }
-
+.primary-text2 {
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    font-family: "Mulish";
+    margin-top: 100px;
+}
 .choose-box-1 {
     width: 573px;
     height: 284px;
