@@ -394,35 +394,23 @@
     .img-mbox {
         padding-left: 13px;
     }
-
     .footer-text {
-        display: flex;
-        justify-content: center;
-        margin-top: 19px;
+        padding-top: 18px;
     }
-
     .footer-des {
         font-size: 14px;
         font-weight: 400;
         width: 284px;
         margin: 16px auto;
     }
-
     .social-link {
-        padding: 0px 190px;
-        /* margin-top: 16px; */
+        padding: 0px 0px;
+        margin-top: 0px;
     }
-
     .footer-sec hr {
-        margin-top: 24px;
         border: 1px solid #dedede;
         width: 335px;
-        /* padding-left: 11px; */
-        margin-left: 120px;
-    }
-
-    body {
-        margin: 0 auto;
+        padding-left: 0px;
     }
 
     .max-width {
@@ -430,17 +418,16 @@
     }
 
     footer {
-        max-width: 598px;
-        margin: 4px -1px;
-        font-family: "Mulish";
-        height: 260px;
-    }
+    height: 260px;
+    width: 454px;
+    margin: 0 auto;
+}
 
     .footer-logo {
         flex-direction: column;
     }
 
     .copyright {
-        margin: 0px 169px;
+        margin: 0px 0;
     }
     
