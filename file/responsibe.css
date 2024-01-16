@@ -313,8 +313,8 @@
         margin: 16px auto;
     }
     .social-link {
-        padding: 0px 274px;
-        margin-top: 16px;
+        padding: 0px 190px;
+        /* margin-top: 16px; */
     }
     .footer-sec hr {
         margin-top: 24px;
@@ -326,4 +326,12 @@
     }
     .max-width{
         max-width: 535px;
+    }
+    footer {
+        max-width: 575px;
+        margin: 4px -1px;
+        font-family: "Mulish";
+    }
+    .footer-logo {
+        flex-direction: column;
     }
