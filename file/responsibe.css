@@ -333,7 +333,11 @@
         max-width: 575px;
         margin: 4px -1px;
         font-family: "Mulish";
+        height: 260px;
     }
     .footer-logo {
         flex-direction: column;
+    }
+    .copyright {
+        margin: 10px 180px;
     }
