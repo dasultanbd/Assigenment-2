@@ -540,17 +540,18 @@ select,
 }
 
 .parfect-sec-yt video {
-    width: 333px;
-    height: 200px;
+    width: 610px;
+    height: 424px;
     border-radius: 16px;
     margin-top: 24px;
 }
+
 .parfect-sec-yt video::-webkit-media-controls-panel {
     background-image: url(../Images/Group\ 40089.png);
     background-size: cover;
     border-radius: 16px;
-    width: 335px;
-    height: 200px;
+    width: 610px;
+    height: 424px;
 }
 
 .see-more {
