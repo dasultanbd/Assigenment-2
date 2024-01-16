@@ -381,7 +381,10 @@
         flex-direction: column;
         margin: 0 auto;
     }
-
+    .img1, .img2, .img3, .img4, .img5, .img6 {
+        overflow: visible;
+        margin-right: 0px;
+    }
     .img-mbox {
         padding-left: 13px;
     }

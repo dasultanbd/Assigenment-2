@@ -26,9 +26,11 @@
     align-items: center;
     width: 86%;
 }
-.humburger1{
+
+.humburger1 {
     visibility: hidden;
 }
+
 .logo-sec {
     display: flex;
     align-items: center;
@@ -158,7 +160,7 @@ select,
     border: none;
 }
 
-.find-ser{
+.find-ser {
     color: white;
     border-radius: 8px;
     font-size: 16px;
@@ -216,6 +218,7 @@ select,
     line-height: 26px;
     width: 530px;
 }
+
 .read {
     color: #FFF;
     text-align: center;
@@ -266,6 +269,7 @@ select,
     gap: 24px;
     margin-bottom: 5px;
 }
+
 .Destination-image2 {
     width: 100%;
     height: 300px;
@@ -273,6 +277,7 @@ select,
     gap: 24px;
     margin-bottom: 5px;
 }
+
 .Destination-image3 {
     width: 100%;
     height: 300px;
@@ -298,6 +303,7 @@ select,
     font-family: "Mulish";
 
 }
+
 .primary-text2 {
     color: #131318;
     text-align: center;
@@ -306,6 +312,7 @@ select,
     font-family: "Mulish";
     margin-top: 100px;
 }
+
 .choose-box-1 {
     width: 573px;
     height: 284px;
@@ -386,9 +393,11 @@ select,
     left: 534px;
     top: 56px;
 }
-.menu1-boz{
+
+.menu1-boz {
     display: flex;
 }
+
 .Deals-icon1 {
     display: flex;
     padding-top: 25px;
@@ -404,6 +413,7 @@ select,
     width: 24px;
     height: 24px;
 }
+
 .Deals-menu1 h6 {
     color: #5A5A5D;
     font-size: 16px;
@@ -439,7 +449,7 @@ select,
     padding-top: 16px;
 }
 
-.Deals-text1  {
+.Deals-text1 {
     color: #FF5400;
     font-family: "Mulish";
     font-size: 20px;
@@ -497,6 +507,7 @@ select,
     font-family: "Mulish";
 
 }
+
 .perfect-text h1 {
     color: #131318;
     font-size: 40px;
@@ -527,9 +538,21 @@ select,
     line-height: 26px;
     padding-top: 10px;
 }
-.parfect-sec-yt iframe{
-    border-radius: 8px;
+
+.parfect-sec-yt video {
+    width: 333px;
+    height: 200px;
+    border-radius: 16px;
+    margin-top: 24px;
 }
+.parfect-sec-yt video::-webkit-media-controls-panel {
+    background-image: url(../Images/Group\ 40089.png);
+    background-size: cover;
+    border-radius: 16px;
+    width: 335px;
+    height: 200px;
+}
+
 .see-more {
     color: #FFF;
     text-align: center;
@@ -705,87 +728,103 @@ footer {
 .copyright {
     margin: 50px 350px;
 }
+
 /* unique sec  */
-.unique-box1{
+.unique-box1 {
     display: flex;
     gap: 20px;
 }
-.img1{
-    overflow: hidden;
-    margin-right: 25px;
-    
-  }
-  .img1 img{
-    transition: all linear 0.5s;
-  }
-  .img1:hover img{
-    transform: rotate(360deg);
-  }
-  .img2{
-    overflow: hidden;
-    margin-right: 25px;
-    
-  }
-  .img2 img{
-    transition: all linear 0.5s;
-  }
-  .img2:hover img{
-    transform: rotate(45deg);
-  }
-  .img3{
-    overflow: hidden;
-    margin-right: 25px;
-    
-  }
-  .img3 img{
-    transition: all linear 0.5s;
-  }
-  .img3:hover img{
-    transform: rotate(-45deg);
-  }
-  .img4{
-    overflow: hidden;
-    margin-right: 25px;
-    
-  }
-  .img4 img{
-    transition: all linear 0.5s;
-  }
-  .img4:hover img{
-    transform: rotate(-30deg);
-  }
-  .img-mbox2 {
-      display: flex;
-      margin-left: 230px;
-    margin-top: 20px;
-  }
-  .img5{
-    overflow: hidden;
-    margin-right: 25px;
-    
-  }
-  .img5 img{
-    transition: all linear 0.5s;
-  }
-  .img5:hover img{
-    transform: rotate(35deg);
-  }
-  .img6{
-    overflow: hidden;
-    margin-right: 25px;
-    
-  }
-  .img6 img{
-    transition: all linear 0.5s;
-  }
-  .img6:hover img{
-    transform: rotate(360deg) scale(1.5);
-  }
 
-.hide{
-    display: none;
+.img1 {
+    overflow: hidden;
+    margin-right: 25px;
+
 }
 
+.img1 img {
+    transition: all linear 0.5s;
+}
 
+.img1:hover img {
+    transform: rotate(360deg);
+}
 
+.img2 {
+    overflow: hidden;
+    margin-right: 25px;
 
+}
+
+.img2 img {
+    transition: all linear 0.5s;
+}
+
+.img2:hover img {
+    transform: rotate(45deg);
+}
+
+.img3 {
+    overflow: hidden;
+    margin-right: 25px;
+
+}
+
+.img3 img {
+    transition: all linear 0.5s;
+}
+
+.img3:hover img {
+    transform: rotate(-45deg);
+}
+
+.img4 {
+    overflow: hidden;
+    margin-right: 25px;
+
+}
+
+.img4 img {
+    transition: all linear 0.5s;
+}
+
+.img4:hover img {
+    transform: rotate(-30deg);
+}
+
+.img-mbox2 {
+    display: flex;
+    margin-left: 230px;
+    margin-top: 20px;
+}
+
+.img5 {
+    overflow: hidden;
+    margin-right: 25px;
+
+}
+
+.img5 img {
+    transition: all linear 0.5s;
+}
+
+.img5:hover img {
+    transform: rotate(35deg);
+}
+
+.img6 {
+    overflow: hidden;
+    margin-right: 25px;
+
+}
+
+.img6 img {
+    transition: all linear 0.5s;
+}
+
+.img6:hover img {
+    transform: rotate(360deg) scale(1.5);
+}
+
+.hide {
+    display: none;
+}
