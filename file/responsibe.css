@@ -1,9 +1,10 @@
 @media screen and (max-width:600px) {
 
     .container {
-       max-width: 335px;
+        max-width: 335px;
         margin: 0 24px;
         font-family: "Mulish";
+        margin-left: 53px;
     }
     /* .header{
         text-align: right;
