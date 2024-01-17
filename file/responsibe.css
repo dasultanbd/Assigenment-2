@@ -52,9 +52,11 @@
     nav a:hover {
         display: inline;
     }
-    .humburger{
+    .fa-bars:before, .fa-navicon:before {
         visibility: visible;
-        /* margin-top: 20px; */
+        position: absolute;
+        top: 70px;
+        right: -56px;
     }
     .fa-solid, .fas {
         font-weight: 900;

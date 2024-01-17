@@ -22,15 +22,13 @@
 .header-left {
     min-height: 40px;
     display: flex;
-    /* justify-content: center; */
     align-items: center;
     width: 86%;
 }
 
-.humburger {
+.fa-bars:before, .fa-navicon:before {
     visibility: hidden;
 }
-
 .logo-sec {
     display: flex;
 }
